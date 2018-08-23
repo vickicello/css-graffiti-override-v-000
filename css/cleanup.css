@@ -1,15 +1,19 @@
 #wall .tag-1 {
-  display:none;
+  display: none;
 }
 
 #wall .tag-1 + #.tag-2 {
-  display:none;
+  display: none;
 }
 
-.slick {
-  display:none;
+#wall #tag-3.slick.wicked {
+  display: none;
 }
 
-.parent > #tag-4 {
-  display:none;
+#wall .parent #tag-4 {
+  display: none;
+}
+
+#wall .parent #tag-5.slick {
+  display: none;
 }
